@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Dtos\Booking\" />
+    <Folder Include="Dtos\Collaboration\" />
+    <Folder Include="Dtos\Finance\" />
+    <Folder Include="Dtos\Identity\" />
+    <Folder Include="Dtos\Media\" />
+    <Folder Include="Dtos\Trips\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="Services\Booking\" />
+    <Folder Include="Services\Collaboration\" />
+    <Folder Include="Services\Finance\" />
+    <Folder Include="Services\Identity\" />
+    <Folder Include="Services\Media\" />
+    <Folder Include="Services\Trips\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
+</Project>

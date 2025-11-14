@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ExternalServices\" />
+    <Folder Include="Persistence\Configurations\Booking\" />
+    <Folder Include="Persistence\Configurations\Collaboration\" />
+    <Folder Include="Persistence\Configurations\Finance\" />
+    <Folder Include="Persistence\Configurations\Identity\" />
+    <Folder Include="Persistence\Configurations\Media\" />
+    <Folder Include="Persistence\Configurations\Trips\" />
+    <Folder Include="Repositories\Booking\" />
+    <Folder Include="Repositories\Collaboration\" />
+    <Folder Include="Repositories\Finance\" />
+    <Folder Include="Repositories\Identity\" />
+    <Folder Include="Repositories\Media\" />
+    <Folder Include="Repositories\Trips\" />
+    <Folder Include="Security\" />
+    <Folder Include="Persistence\Contexts\" />
+    <Folder Include="Persistence\Migrations\" />
+  </ItemGroup>
+
+</Project>
